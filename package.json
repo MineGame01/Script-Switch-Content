@@ -5,5 +5,8 @@
   "private": true,
   "dependencies": {
     "typescript": "^5.5.4"
+  },
+  "scripts": {
+    "dev": "npx tsc --watch"
   }
 }

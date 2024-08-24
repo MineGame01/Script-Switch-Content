@@ -11,7 +11,7 @@ The second element for page content.
     <div id="menu"></div>
     <div id="pages"></div>
 ```
-- In the menu element, create 2 more buttons for switching pages and a list in the middle for additional buttons.
+- In the menu element, create 2 more buttons for switching pages and a list in the middle for navigation buttons.
 ```html
     <div id="menu">
         <button>Back</button>
@@ -19,18 +19,25 @@ The second element for page content.
         <button>Next</button>
     </div>
 ```
-- Now we need to create page elements and assign them unique IDs. And the <code>data-page-name</code> attribute, to specify the page name
+- Now we need to create page elements and assign unique attributes to them <code>data-page-id</code>. 
+And the <code>data-page-name</code> attribute, to specify the page name
 ```html
     <div id="pages">
         <div 
         data-page-name="Page 1" 
-        id="page-1">Page 1</div>
+        data-page-id="page-1">
+            Page 1
+        </div>
         <div
         data-page-name="Page 2" 
-        id="page-1">Page 2</div>
+        data-page-id="page-2">
+            Page 2
+        </div>
         <div
         data-page-name="Page 3" 
-        id="page-1">Page 3</div>
+        data-page-id="page-3">
+            Page 3
+        </div>
     </div>
 ```
 - Now you need to call the function to configure and pass the reference to the elements as arguments.
@@ -44,7 +51,13 @@ The second element for page content.
 You can also style buttons etc.
 
 ## API
-<code>data-class-name-btn: string</code> - Assigns classes to additional page switching buttons. Applies to menu item
+
+| Attributes  | Description |
+| ------------- | ------------- |
+| <code>data-page-name: string</code> | An attribute that takes a page name to create a button to navigate between pages. |
+| <code>data-page-id: string</code> | An attribute that accepts a unique identifier to find the desired page to hide or show. |
+| <code>data-switch-btn-class: string</code> | Assigns classes to buttons for navigating to pages. Applies to menu item.  |
+| <code>data-switch-btn-path: "next" / "back" </code> | Attribute for the page switching button, sets the side to which the page will be switched. |
 
 ## End
 The script will continue to be improved and corrected. <br>

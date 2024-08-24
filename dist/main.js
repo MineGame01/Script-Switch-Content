@@ -1,4 +1,4 @@
-import { setupScrollingText } from "./scrolling-text.js";
+import { setupScrollingText } from "./switch-content.js";
 {
     const menuElement = document.getElementById("menu");
     const pagesElement = document.getElementById("pages");
