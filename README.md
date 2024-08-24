@@ -14,9 +14,9 @@ The second element for page content.
 - In the menu element, create 2 more buttons for switching pages and a list in the middle for navigation buttons.
 ```html
     <div id="menu">
-        <button>Back</button>
+        <button data-switch-btn-path="back">Back</button>
         <ul></ul>
-        <button>Next</button>
+        <button data-switch-btn-path="next">Next</button>
     </div>
 ```
 - Now we need to create page elements and assign unique attributes to them <code>data-page-id</code>. 
