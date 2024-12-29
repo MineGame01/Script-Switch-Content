@@ -7,9 +7,8 @@
     <img src="https://img.shields.io/npm/dm/script-switch-content" alt="Package on npm" />
 </a>
 <a href="https://github.com/MineGame01/Script-Switch-Content">
-    <img src="https://img.shields.io/github/stars/MineGame01/Script-Switch-Content
-    " alt="GitHub Repo stars" />
-</a> ⭐
+    <img src="https://img.shields.io/github/stars/MineGame01/Script-Switch-Content" alt="GitHub Repo stars" />
+</a>
 
 ## Description
 
@@ -87,7 +86,6 @@ This is the first time I've written scripts like this, so I think it turned out 
 Github - [MineGame01](https://github.com/MineGame01) <br>
 
 <a href="https://github.com/MineGame01/Script-Switch-Content">
-    <img src="https://img.shields.io/github/stars/MineGame01/Script-Switch-Content
-    " alt="GitHub Repo stars" />
+    <img src="https://img.shields.io/github/stars/MineGame01/Script-Switch-Content" alt="GitHub Repo stars" />
 </a> <br>
 If the script is good, Give repo a star ⭐ ⬆️.
