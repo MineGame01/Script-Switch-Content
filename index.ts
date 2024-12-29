@@ -1,5 +1,8 @@
 type TElement = HTMLElement;
 
+/**
+ * Installing a script to switch content
+ */
 export class SwitchContent {
     /**
      *  This object with pair "content id" (key) and "content name" (property)

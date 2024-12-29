@@ -1,6 +1,6 @@
 {
     "name": "script-switch-content",
-    "version": "1.0.3",
+    "version": "1.1.2",
     "description": "A lightweight JavaScript/TypeScript library for dynamically creating and switching between content using buttons.",
     "author": "IMineGame",
     "license": "MIT",

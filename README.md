@@ -6,10 +6,14 @@
 <a href="https://www.npmjs.com/package/script-switch-content">
     <img src="https://img.shields.io/npm/dm/script-switch-content" alt="Package on npm" />
 </a>
+<a href="https://github.com/MineGame01/Script-Switch-Content">
+    <img src="https://img.shields.io/github/stars/MineGame01/Script-Switch-Content
+    " alt="GitHub Repo stars" />
+</a> ⭐
 
 ## Description
 
-The script allows you to easily create content and switch between them using buttons.
+<strong>The script allows you to easily create content and switch between them using buttons.</strong>
 
 And it also helps to understand the approximate principle of operation of such logic.
 
@@ -59,7 +63,7 @@ const contentsElement = document.getElementById("contents");
 new SwitchContent(menuElement, contentsElement);
 ```
 
--   Done!<br>
+-   <strong>Done!</strong><br>
     You can also style buttons etc.
 
 ## API
@@ -81,3 +85,9 @@ This is the first time I've written scripts like this, so I think it turned out 
 ## Author
 
 Github - [MineGame01](https://github.com/MineGame01) <br>
+
+<a href="https://github.com/MineGame01/Script-Switch-Content">
+    <img src="https://img.shields.io/github/stars/MineGame01/Script-Switch-Content
+    " alt="GitHub Repo stars" />
+</a> <br>
+If the script is good, Give repo a star ⭐ ⬆️.
