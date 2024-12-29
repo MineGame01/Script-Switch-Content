@@ -1,8 +1,8 @@
-import { setupScrollingText } from "./index";
+import { SwitchContent } from "./index";
 
 {
     const menuElement = document.getElementById("menu") as HTMLElement;
-    const pagesElement = document.getElementById("pages") as HTMLElement;
+    const contentsElement = document.getElementById("contents") as HTMLElement;
 
-    setupScrollingText({ menuElement, pagesElement });
+    const switchContent = new SwitchContent(menuElement, contentsElement);
 }

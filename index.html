@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Switch Content</title>
-</head>
-<body>
-    <div id="menu">
-        <button data-switch-btn-path="back">Back</button>
-        <ul></ul>
-        <button data-switch-btn-path="next">Next</button>
-    </div>
-    <div class="pages" id="pages">
-        <div 
-        data-page-name="Page 1" 
-        data-page-id="page-1">
-            Page 1: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit accusantium hic quam corporis! Et voluptatem, atque voluptatum ab doloribus quasi nobis at autem non voluptas.</div>
-        <div 
-        data-page-name="Page 2" 
-        data-page-id="page-2">
-            Page 2: Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, consequuntur vel distinctio perspiciatis eius sit!</div>
-        <div 
-        data-page-name="Page 3" 
-        data-page-id="page-3">
-            Page 3: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, unde.</div>
-    </div>
-    <script type="module" src="main.ts"></script>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Switch Content</title>
+    </head>
+    <body>
+        <div id="menu">
+            <button data-switch-btn-path="back">Back</button>
+            <ul></ul>
+            <button data-switch-btn-path="next">Next</button>
+        </div>
+        <div id="contents">
+            <div data-content-name="Content 1" data-content-id="content-1">
+                Content 1: Lorem ipsum dolor sit, amet consectetur adipisicing
+                elit. Velit accusantium hic quam corporis! Et voluptatem, atque
+                voluptatum ab doloribus quasi nobis at autem non voluptas.
+            </div>
+            <div data-content-name="Content 2" data-content-id="content-2">
+                Content 2: Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Iure, consequuntur vel distinctio perspiciatis eius sit!
+            </div>
+            <div data-content-name="Content 3" data-content-id="content-3">
+                Content 3: Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Ratione, unde.
+            </div>
+        </div>
+        <script type="module" src="main.ts"></script>
+    </body>
 </html>

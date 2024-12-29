@@ -1,22 +1,43 @@
 {
-  "name": "script-switch-content",
-  "version": "1.0.2",
-  "author": "IMineGame",
-  "scripts": {
-    "start": "vite",
-    "build": "vite build"
-  },
-  "devDependencies": {
-    "typescript": "^5.6.2",
-    "vite": "^5.4.8"
-  },
-  "keywords": [
-    "javascript",
-    "typescript",
-    "js",
-    "ts",
-    "script",
-    "switch",
-    "content"
-  ]
+    "name": "script-switch-content",
+    "version": "1.0.3",
+    "description": "A lightweight JavaScript/TypeScript library for dynamically creating and switching between content using buttons.",
+    "author": "IMineGame",
+    "license": "MIT",
+    "homepage": "https://github.com/MineGame01/Script-Switch-Content",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MineGame01/Script-Switch-Content.git"
+    },
+    "bugs": {
+        "url": "https://github.com/MineGame01/Script-Switch-Content/issues"
+    },
+    "scripts": {
+        "start": "vite"
+    },
+    "devDependencies": {
+        "typescript": "^5.6.2",
+        "vite": "^5.4.8"
+    },
+    "keywords": [
+        "javascript",
+        "typescript",
+        "js",
+        "ts",
+        "content-switching",
+        "content-navigation",
+        "dynamic-content",
+        "frontend",
+        "library",
+        "ui",
+        "buttons",
+        "scripts",
+        "web-development"
+    ],
+    "categories": [
+        "Visualization",
+        "Other"
+    ],
+    "main": "index.ts",
+    "dependencies": {}
 }
